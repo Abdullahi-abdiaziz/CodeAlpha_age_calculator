@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon" />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Age Calculator</h1>
+      <div class="input-box" id="input-box">
+        <div class="datepicker-container">
+          <input type="date" id="birthdate" class="datepicker" />
+        </div>
+
+        <button class="age-btn" onclick="calculateAge()">
+          <img src="assets/next.png" alt="" />
+        </button>
+      </div>
+      <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

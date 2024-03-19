@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --snow: #fffdff;
+  --platinium: #dfe2e5;
+  --columbia-blue: #c6e4f6;
+  --maya-blue: #7ac1f4;
+  --black: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--maya-blue);
+  color: var(--black);
+  background-image: url(assets/bg.png);
+}
+
+.container {
+  background-color: var(--snow);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 3px;
+}
+
+.container h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+button,
+input {
+  all: unset;
+}
+
+input-box .error {
+  border: 2px solid rgb(244, 63, 63);
+}
+
+#result.error {
+  font-weight: 500;
+  color: rgb(244, 63, 63);
+  letter-spacing: 1.5px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  background-color: var(--columbia-blue);
+  margin-bottom: 2rem;
+}
+
+.input-box button,
+.input-box input {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#result h3 {
+  font-size: 1.3rem;
+  color: rgb(33, 207, 79);
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+#result span {
+  font-size: 1.1rem;
+  display: inline-block;
+  margin-top: 0.25rem;
+  margin-left: 0.5rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  background-color: #7ac1f4;
+  border-radius: 0.5rem;
+  color: #fff;
+}
