@@ -30,7 +30,7 @@ This JavaScript Age Calculator is a simple tool designed to calculate a person's
 ---
 
 ## Preview
-![Age Calculator Preview](/src/age_calculator_preview.png)
-![Age Calculator Preview](/src/age_calculator_detailed.png)
+![Age Calculator Preview](/assets/age_calculator_preview.png)
+![Age Calculator Preview](/assets/age_calculator_detailed.png)
 ---
  Happy coding!
